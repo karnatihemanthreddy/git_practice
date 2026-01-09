@@ -1,2 +1,2 @@
 github actions workflow demo
-push event trigger demo
+pull request trigger demo
