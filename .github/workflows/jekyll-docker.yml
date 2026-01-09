@@ -10,7 +10,7 @@ on:
 jobs:
   build-windows:
     name: Build on self-hosted Windows
-    runs-on: [ self-hosted, windows ]
+    runs-on: [self-hosted, Windows, x64, GPU]
 
     steps:
     - uses: actions/checkout@v4
